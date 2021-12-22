@@ -7,7 +7,7 @@ const isLoggedIn = false;
 const App = () => {
   return (
     <div className="container">
-      {!isLoggedIn ?<h1>Welcome Jossy! <br/> You are logged in.</h1> : <Form />  }
+      {!isLoggedIn ?<h1>Welcome Ralu! <br/> You are logged in.</h1> : <Form />  }
     </div>
 
   )
